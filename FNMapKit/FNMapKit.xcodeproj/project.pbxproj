@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559E525A1C0EBBD300A1CB14 /* FNMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 559E52591C0EBBD300A1CB14 /* FNMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559E52611C0EBBD300A1CB14 /* FNMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E52561C0EBBD300A1CB14 /* FNMapKit.framework */; };
+		559E52661C0EBBD300A1CB14 /* FNMapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E52651C0EBBD300A1CB14 /* FNMapKitTests.m */; };
+		559E52721C0EBBE800A1CB14 /* FNMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 559E52701C0EBBE800A1CB14 /* FNMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559E52731C0EBBE800A1CB14 /* FNMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E52711C0EBBE800A1CB14 /* FNMap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559E52621C0EBBD300A1CB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559E524D1C0EBBD300A1CB14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559E52551C0EBBD300A1CB14;
+			remoteInfo = FNMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559E52561C0EBBD300A1CB14 /* FNMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FNMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559E52591C0EBBD300A1CB14 /* FNMapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNMapKit.h; sourceTree = "<group>"; };
+		559E525B1C0EBBD300A1CB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559E52601C0EBBD300A1CB14 /* FNMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559E52651C0EBBD300A1CB14 /* FNMapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNMapKitTests.m; sourceTree = "<group>"; };
+		559E52671C0EBBD300A1CB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559E52701C0EBBE800A1CB14 /* FNMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNMap.h; sourceTree = "<group>"; };
+		559E52711C0EBBE800A1CB14 /* FNMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNMap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559E52521C0EBBD300A1CB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559E525D1C0EBBD300A1CB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559E52611C0EBBD300A1CB14 /* FNMapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559E524C1C0EBBD300A1CB14 = {
+			isa = PBXGroup;
+			children = (
+				559E52581C0EBBD300A1CB14 /* FNMapKit */,
+				559E52641C0EBBD300A1CB14 /* FNMapKitTests */,
+				559E52571C0EBBD300A1CB14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559E52571C0EBBD300A1CB14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559E52561C0EBBD300A1CB14 /* FNMapKit.framework */,
+				559E52601C0EBBD300A1CB14 /* FNMapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559E52581C0EBBD300A1CB14 /* FNMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				559E52591C0EBBD300A1CB14 /* FNMapKit.h */,
+				559E525B1C0EBBD300A1CB14 /* Info.plist */,
+				559E52701C0EBBE800A1CB14 /* FNMap.h */,
+				559E52711C0EBBE800A1CB14 /* FNMap.m */,
+			);
+			path = FNMapKit;
+			sourceTree = "<group>";
+		};
+		559E52641C0EBBD300A1CB14 /* FNMapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				559E52651C0EBBD300A1CB14 /* FNMapKitTests.m */,
+				559E52671C0EBBD300A1CB14 /* Info.plist */,
+			);
+			path = FNMapKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		559E52531C0EBBD300A1CB14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559E525A1C0EBBD300A1CB14 /* FNMapKit.h in Headers */,
+				559E52721C0EBBE800A1CB14 /* FNMap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		559E52551C0EBBD300A1CB14 /* FNMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559E526A1C0EBBD300A1CB14 /* Build configuration list for PBXNativeTarget "FNMapKit" */;
+			buildPhases = (
+				559E52511C0EBBD300A1CB14 /* Sources */,
+				559E52521C0EBBD300A1CB14 /* Frameworks */,
+				559E52531C0EBBD300A1CB14 /* Headers */,
+				559E52541C0EBBD300A1CB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNMapKit;
+			productName = FNMapKit;
+			productReference = 559E52561C0EBBD300A1CB14 /* FNMapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		559E525F1C0EBBD300A1CB14 /* FNMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559E526D1C0EBBD300A1CB14 /* Build configuration list for PBXNativeTarget "FNMapKitTests" */;
+			buildPhases = (
+				559E525C1C0EBBD300A1CB14 /* Sources */,
+				559E525D1C0EBBD300A1CB14 /* Frameworks */,
+				559E525E1C0EBBD300A1CB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559E52631C0EBBD300A1CB14 /* PBXTargetDependency */,
+			);
+			name = FNMapKitTests;
+			productName = FNMapKitTests;
+			productReference = 559E52601C0EBBD300A1CB14 /* FNMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559E524D1C0EBBD300A1CB14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DevinLai;
+				TargetAttributes = {
+					559E52551C0EBBD300A1CB14 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					559E525F1C0EBBD300A1CB14 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 559E52501C0EBBD300A1CB14 /* Build configuration list for PBXProject "FNMapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 559E524C1C0EBBD300A1CB14;
+			productRefGroup = 559E52571C0EBBD300A1CB14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559E52551C0EBBD300A1CB14 /* FNMapKit */,
+				559E525F1C0EBBD300A1CB14 /* FNMapKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559E52541C0EBBD300A1CB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559E525E1C0EBBD300A1CB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559E52511C0EBBD300A1CB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559E52731C0EBBE800A1CB14 /* FNMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559E525C1C0EBBD300A1CB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559E52661C0EBBD300A1CB14 /* FNMapKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559E52631C0EBBD300A1CB14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559E52551C0EBBD300A1CB14 /* FNMapKit */;
+			targetProxy = 559E52621C0EBBD300A1CB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		559E52681C0EBBD300A1CB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		559E52691C0EBBD300A1CB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559E526B1C0EBBD300A1CB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FNMapKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fusionnext.FNMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		559E526C1C0EBBD300A1CB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FNMapKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fusionnext.FNMapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		559E526E1C0EBBD300A1CB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FNMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fusionnext.FNMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		559E526F1C0EBBD300A1CB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FNMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fusionnext.FNMapKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559E52501C0EBBD300A1CB14 /* Build configuration list for PBXProject "FNMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559E52681C0EBBD300A1CB14 /* Debug */,
+				559E52691C0EBBD300A1CB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559E526A1C0EBBD300A1CB14 /* Build configuration list for PBXNativeTarget "FNMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559E526B1C0EBBD300A1CB14 /* Debug */,
+				559E526C1C0EBBD300A1CB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		559E526D1C0EBBD300A1CB14 /* Build configuration list for PBXNativeTarget "FNMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559E526E1C0EBBD300A1CB14 /* Debug */,
+				559E526F1C0EBBD300A1CB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559E524D1C0EBBD300A1CB14 /* Project object */;
+}
